@@ -1,0 +1,16 @@
+.section-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 25px;
+}
+pre {
+  color: #008de4;
+}
+a {
+  color: white;
+}
+
+/* p,
+h1 {
+  color: #ffffff;
+} */
