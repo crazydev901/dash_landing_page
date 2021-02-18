@@ -6,6 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/dash_landing_page",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
