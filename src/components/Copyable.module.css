@@ -2,12 +2,12 @@ body {
   background: #444;
 }
 .wrapper {
-  color: #fff;
+  color: #f3f9ff;
   width: 50%;
   margin: 20px 25%;
 }
 p {
-  font-weight: 700;
+  font-weight: 600;
 }
 .code-sample {
   /* background: #fff; */
@@ -24,7 +24,7 @@ p {
 }
 .code-sample .clip-button {
   opacity: 0;
-  animation: 0.3s clip-pop 0.1s;
+  animation: clip-pop 0.1s;
 }
 .code-sample pre {
   color: #008de4;
@@ -32,15 +32,16 @@ p {
   margin: 0;
 }
 .code-sample .clip-button {
+    border-radius: 3px;
   position: absolute;
   opacity: 0;
-  right: 0;
-  top: 0;
-  padding: 2px 4px;
+  right: 8px;
+  top: 8px;
+  padding: 4px 8px 8px;
   /* border: 1px solid #eee; */
   font-size: 1rem;
-  color: #fff;
-  background: #444;
+  color: #dbe6f0;
+  background: #030b1a;
   transition: all 0.2s ease;
 }
 

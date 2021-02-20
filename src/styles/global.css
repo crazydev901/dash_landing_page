@@ -1,5 +1,17 @@
 html,
 * {
   background-color: #0b0f3b;
+  color: #f3f9ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: #008de4;
+}
+
+code {
+    color: #008de4 !important;
+}
+
+pre code {
+    color: #e4effa !important;
 }
